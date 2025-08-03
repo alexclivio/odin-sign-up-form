@@ -3,6 +3,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="main">
+      <div class="left-section">
+        <div class="inner-logo-container">
+          <!-- <img src="" alt="" /> -->
+        </div>
+        <img src="photo-1585202900225-6d3ac20a6962.avif" alt="" />
+      </div>
+      <div class="right-section">
+        <div class="info-container">
+          <h3 class="top-content">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </h3>
+          <h3 class="lower-content">You know you want to.</h3>
+        </div>
+        <div class="form-container">
+          <form class="sign-up-form" action="" method="post">
+            <h2>Lets do this!</h2>
+            <div class="form-controls">
+              <div class="form-input">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" />
+              </div>
+
+              <div class="form-input">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" />
+              </div>
+
+              <div class="form-input">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="mail" />
+              </div>
+
+              <div class="form-input">
+                <label for="phone_number">Phone Number</label>
+                <input type="tel" id="phone_number" name="phone_number" />
+              </div>
+
+              <div class="form-input">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  minlength="8"
+                  id="password"
+                  name="password"
+                  required />
+              </div>
+
+              <div class="form-input">
+                <label for="confirm_password">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirm_password"
+                  name="confirm_password"
+                  minlength="8"
+                  required />
+              </div>
+            </div>
+            <div class="form-btn">
+              <button type="button">Create Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
